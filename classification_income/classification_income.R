@@ -2,7 +2,7 @@
 library(dplyr)
 
 # Define the path to the dataset (make sure this is the correct path)
-file_path <- "C:/Users/wb617153/OneDrive - WBG/Desktop/LP_europe/LP_dataset.csv"
+file_path <- "C:/Users/borde/OneDrive/Documents/GitHub/LP_europe/LP_dataset2.csv"
 
 # Step 1: Read the dataset
 data <- read.csv(file_path)
@@ -35,7 +35,7 @@ country_data <- country_data %>%
 
 # Step 6: Save the updated dataset with high-income classification
 # This saves the final dataset back to the working directory
-output_path <- "C:/Users/wb617153/OneDrive - WBG/Desktop/LP_europe/final_high_income_classification.csv"
+output_path <- "C:/Users/borde/OneDrive/Documents/GitHub/LP_europe/final_high_income_classification2.csv"
 write.csv(country_data, file = output_path, row.names = FALSE)
 
 # Done! The file has been saved as "final_high_income_classification.csv"
